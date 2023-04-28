@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="Rock-paper-scissors.js"></script>
+    <style>
+        .heading{
+            text-align: center;
+            Font-size: 75px;
+            Line-height: 113px;
+        }
+        body{
+            background-color: khaki;
+
+        }
+        .inputs{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .inputs #rock{
+            background-color: #5A4D41;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .inputs #paper{
+            background-color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .inputs #scissors{
+            background-color: #71797E;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #result{
+            text-align: center;
+            margin-top: 70px;
+            font-size: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="heading"><h4>Play Rock Paper Scissors</h4></div>
+    <div class="inputs">
+        <button class="btn" id="rock">Rock</button>
+        <button class="btn" id="paper">Paper</button>
+        <button class="btn" id="scissors">Scissors</button>
+    </div>
+      <div id="result">Result here</div>
+</body>
+</html>
